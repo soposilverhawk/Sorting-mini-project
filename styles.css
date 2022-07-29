@@ -2,7 +2,8 @@
     width: 100vw;
     height: 100vh;
     margin-top: 50px;
-    margin-left: 50px;
+    padding-left: 50px;
+    margin-left: 0 auto;
 }
 h1 {
     font-size: 30px;
@@ -17,4 +18,21 @@ input {
     justify-content: space-between;
     width: 430px;
     height: 120px;
+}
+.products-divs {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(243, 194, 104, 0.993);
+    margin-bottom: 20px;
+}
+.cards-container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
